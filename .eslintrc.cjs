@@ -11,6 +11,7 @@ module.exports = {
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
+  plugins: ["react"],
   rules: {
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
@@ -18,4 +19,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  "rules": {   
+    "react/jsx-uses-react": "error",   
+    "react/jsx-uses-vars": "error" 
+},
 }
