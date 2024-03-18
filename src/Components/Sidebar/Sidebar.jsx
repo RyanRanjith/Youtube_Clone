@@ -43,6 +43,9 @@ const Sidebar = () => {
         <div className="side-link">
             <img src={blogs} alt="" /> <p>Blogs</p>
         </div>
+        <div className="side-link">
+            <img src={news} alt="" /> <p>News</p>
+        </div>
         <hr />
 
       </div>
