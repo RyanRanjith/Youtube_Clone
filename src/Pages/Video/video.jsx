@@ -3,7 +3,7 @@ import './Video.css'
 
 const video = () => {
   return (
-    <div>
+    <div className='play-container'>
       
     </div>
   )
