@@ -33,7 +33,7 @@ const Feed = ({category}) => {
         <img src={item.snippet.thumbnails.medium.url} alt="" />
         <h2>{item.snippet.title}</h2>
         <h3>{item.snippet.channelTitle}</h3>
-        <p>{value_converter(item.statistics.viewCount)} &bull; 2 days ago </p>
+        <p>{value_converter(item.statistics.viewCount)} views &bull;{item.snippet.publishedAt}</p>
       </Link>
        )
        })}
